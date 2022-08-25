@@ -1,6 +1,6 @@
 import React from 'react'
 import footerImg from "../../asset/footerImg.png"
-import Image from "next/image"
+import Image from "next/Image"
 
 function Footer() {
   return (

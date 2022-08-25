@@ -29,8 +29,9 @@ function Navbar() {
         </ul>
 
         <ul className="navbar-nav">
+       
 
-        <li className="nav-btn ml-5 text-center mt-4 mb-3" style={{marginLeft:'30px',color:"#2036AE"}}><b>Sign in</b></li> 
+        <li className="nav-btn ml-5 text-center mt-4 mb-3" style={{marginLeft:'30px',color:"#2036AE"}}><b><Link href="/signin"><a style={{textDecoration:'none',color:"#2036AE"}}>Sign in</a></Link></b></li> 
          
         <li id='hideButtonStarted' className="nav-btn ml-5 text-center mt-2 mb-2 " style={{marginLeft:'30px'}}><b><button  style={{backgroundColor:'#2036AE',borderRadius:'10px'}} className='btn btn-lg text-white'>Get Started</button></b></li>
 
