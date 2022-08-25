@@ -6,11 +6,90 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
+
+#welMessage_1{
+  color: #2036AE;
+  width: 504px;
+  height: 180px;
+  font-family: 'Nexa Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+#welMessage_2{
+  width: 504px;
+height: 64px;
+color: #404040;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+}
+.btn-create{
+ 
+background-color: #2036AE;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.me{
+  background: linear-gradient(90deg, #F7F7F7 74.43%, rgba(241, 241, 241, 0) 90.07%);
+}
+
+
+
+@media screen and (max-width:760px) {
+  #hideButtonStarted{
+    display: none;
+  }
+}
+
+
+.bannerBack{
+  background-image: url("../asset/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 900%;
+  background-position:500px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* position: relative; */
+}
+
+.signBack{
+  background-image: url("../asset/signBack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+@media screen and (max-width:800px) {
+  .signBack{
+    display: none;
+  }
+  
+}
+
+.bb{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
